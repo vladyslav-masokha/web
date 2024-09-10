@@ -1,0 +1,19 @@
+#root {
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	input,
+	#Gender {
+		margin: 0 0 15px;
+	}
+
+	sup {
+		color: #f00;
+	}
+}
