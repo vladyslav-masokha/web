@@ -1,0 +1,64 @@
+nav ul li:first-child {
+	font-weight: 700;
+}
+
+a:last-child {
+	color: #f00;
+}
+
+input[disabled] {
+	background-color: #c0c0c0;
+}
+
+div > p {
+	font-weight: 600;
+}
+
+input[type='text'] {
+	border: 1px solid blue;
+}
+
+a[href^='https'] {
+	color: green;
+}
+
+li:first-child,
+li:last-child {
+	font-size: 24px;
+}
+
+div p {
+	font-size: 16px;
+}
+
+input:checked {
+	background-color: #00bfff;
+}
+
+li > a {
+	text-decoration: underline;
+}
+
+li:nth-child(even) {
+	font-weight: 700;
+}
+
+input[type='text']:not(:disabled) {
+	background-color: gray;
+}
+
+p:first-child {
+	font-size: 24px;
+}
+
+.special + li {
+	text-decoration: line-through;
+}
+
+p::first-letter {
+	font-size: 36px;
+}
+
+a::after {
+	content: '↗';
+}
