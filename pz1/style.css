@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+body,
+h1,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: lightblue;
+
+	.headerTop {
+		text-align: center;
+		padding: 15px 0;
+	}
+}
+
+.nav ul {
+	display: flex;
+	justify-content: center;
+	background-color: #000;
+	padding: 15px 0;
+	margin: 0;
+
+	li:not(:first-child) {
+		margin: 0 0 0 15px;
+	}
+
+	.navLink {
+		color: #fff;
+		text-decoration: none;
+		font-weight: 700;
+		transition: color 0.5s ease-in-out;
+
+		&.active {
+			color: #90ee90;
+		}
+
+		&:hover {
+			color: #90ee90;
+		}
+	}
+}
+
+.main {
+	.blockTitle {
+		text-align: center;
+	}
+
+	#about {
+		margin: 30px 0;
+
+		.aboutBody {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+
+			.personalInfo {
+				max-width: 400px;
+			}
+
+			.contactInfo {
+				span {
+					font-weight: 700;
+				}
+
+				a {
+					color: #00008b;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	#practicalClasses,
+	#labClasses {
+		.practicalClassesBody,
+		.labClassesBody {
+			display: flex;
+			gap: 15px;
+			justify-content: space-around;
+
+			.practical,
+			.lab {
+				max-width: 400px;
+			}
+		}
+	}
+}
+
+.footer {
+	background-color: cadetblue;
+
+	.footerBody {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.copyright {
+			color: #eee;
+		}
+
+		.socials ul {
+			display: flex;
+
+			li:not(:first-child) {
+				margin: 0 0 0 15px;
+			}
+
+			a {
+				color: #222;
+			}
+		}
+	}
+}
+
+table {
+	border: 1px solid #000;
+
+	th,
+	td {
+		border: 1px solid #000;
+	}
+
+	th {
+		text-align: center;
+		p {
+			font-size: 10px;
+			color: #00008b;
+		}
+	}
+}
