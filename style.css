@@ -110,6 +110,7 @@ li {
 }
 
 .footer {
+	margin-top: auto;
 	background-color: cadetblue;
 
 	.footerBody {
