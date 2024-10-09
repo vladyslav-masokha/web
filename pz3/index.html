@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Youtube</title>
+		<link rel="stylesheet" href="./styles/style.css" />
+	</head>
+	<body>
+		<div id="root">
+			<header class="header">
+				<div class="wrapper">
+					<div class="headerBody">
+						<a href="https://youtube.com/" target="_blank" class="headerLogo">
+							<img
+								src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
+								alt="YouTube Logo"
+							/>
+						</a>
+						<input type="text" class="searchBar" placeholder="Пошук" />
+						<div class="userIcon">
+							<div class="iconCircle">B</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<aside>
+				<nav class="nav" role="navigation">
+					<ul>
+						<li>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="currentColor"
+								height="24"
+								viewBox="0 0 24 24"
+								width="24"
+								focusable="false"
+								aria-hidden="true"
+								style="
+									pointer-events: none;
+									display: inherit;
+									width: 100%;
+									height: 100%;
+								"
+							>
+								<path
+									clip-rule="evenodd"
+									d="M22.146 11.146a.5.5 0 01-.353.854H20v7.5a1.5 1.5 0 01-1.5 1.5H14v-8h-4v8H5.5A1.5 1.5 0 014 19.5V12H2.207a.5.5 0 01-.353-.854L12 1l10.146 10.146Z"
+									fill-rule="evenodd"
+								></path>
+							</svg>
+							<a href="https://www.youtube.com/">Головна</a>
+						</li>
+						<li>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="currentColor"
+								height="24"
+								viewBox="0 0 24 24"
+								width="24"
+								focusable="false"
+								aria-hidden="true"
+								style="
+									pointer-events: none;
+									display: inherit;
+									width: 100%;
+									height: 100%;
+								"
+							>
+								<path
+									clip-rule="evenodd"
+									d="M18.45 8.851c1.904-1.066 2.541-3.4 1.422-5.214-1.119-1.814-3.57-2.42-5.475-1.355L5.55 7.247c-1.29.722-2.049 2.069-1.968 3.491.081 1.423.989 2.683 2.353 3.268l.942.404-1.327.742c-1.904 1.066-2.541 3.4-1.422 5.214 1.119 1.814 3.57 2.421 5.475 1.355l8.847-4.965c1.29-.722 2.049-2.068 1.968-3.49-.081-1.423-.989-2.684-2.353-3.269l-.942-.403 1.327-.743ZM10 14.567a.25.25 0 00.374.217l4.45-2.567a.25.25 0 000-.433l-4.45-2.567a.25.25 0 00-.374.216v5.134Z"
+									fill-rule="evenodd"
+								></path>
+							</svg>
+							<a href="https://www.youtube.com/shorts/">YouTube Shorts</a>
+						</li>
+					</ul>
+					<hr />
+					<ul>
+						<li><a href="https://www.youtube.com/feed/you">Ваш канал</a></li>
+						<li><a href="https://www.youtube.com/feed/history">Історія</a></li>
+						<li><a href="https://studio.youtube.com/">Ваші відео</a></li>
+						<li>
+							<a href="https://www.youtube.com/playlist?list=WL"
+								>Переглянуті пізніше</a
+							>
+						</li>
+					</ul>
+
+					<hr />
+
+					<ul>
+						<li>
+							<a href="https://www.youtube.com/@WAS_UA">WAS: Популярн..</a>
+						</li>
+						<li><a href="https://www.youtube.com/@TheDRZJ">TheDRZJ</a></li>
+						<li><a href="https://www.youtube.com/@rozetka">ROZETKA</a></li>
+						<li>
+							<a href="https://www.youtube.com/@RozetkaGamers"
+								>ROZETKA GAMERS</a
+							>
+						</li>
+						<li><a href="https://www.youtube.com/@hushchi">Хащі</a></li>
+						<li>
+							<a href="https://www.youtube.com/@uremy_firstlove">
+								First Love
+							</a>
+						</li>
+						<li>Показати ще 24</li>
+					</ul>
+				</nav>
+			</aside>
+
+			<div class="categoryBar">
+				<button class="category active"><a href="">Усі</a></button>
+				<button class="category">Ігри</button>
+				<button class="category">Музика</button>
+				<button class="category">Пряма трансляція</button>
+				<button class="category">Новини</button>
+				<button class="category">Пригодницький бойовик</button>
+				<button class="category">Образотворчі мистецтва</button>
+				<button class="category">Мультфільми</button>
+				<button class="category">Нещодавні завантаження</button>
+				<button class="category">Ви дивилися</button>
+			</div>
+
+			<main class="main">
+				<section class="videoGrid">
+					<a
+						href="https://www.youtube.com/watch?v=xNNQfeamiFo&ab_channel=FirstLove"
+					>
+						<div class="videoCard">
+							<img
+								class="thumbnail"
+								src="https://i.ytimg.com/vi/xNNQfeamiFo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbQ7HiJSzHGlRkG5_lsGyOOmS6LA"
+								alt="Let Her Go thumbnail"
+							/>
+							<div class="videoInfo">
+								<div class="channelIcon">
+									<img
+										src="https://yt3.ggpht.com/ZuNyxLNsb3UHxWG6KQjNDK64CA1OPmkZ8cuoOWk3I0i9BxRq6s3EyozfyCc32APQH-oCVNrD8g=s68-c-k-c0x00ffffff-no-rj"
+										alt="Channel Icon"
+									/>
+								</div>
+								<div class="videoDetails">
+									<h4>
+										Let Her Go 🎶 Sad songs playlist for broken hearts ~
+										Depressing Songs 2024...
+									</h4>
+									<p>First Love <span class="verified">✔</span></p>
+									<p>153 тис. переглядів • 3 місяці тому</p>
+								</div>
+								<div class="moreOptions">
+									<span>⋮</span>
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<a
+						href="https://www.youtube.com/watch?v=JnWqhQ9OSBU&ab_channel=HappyBeats"
+						class="videoCard"
+					>
+						<img
+							class="thumbnail"
+							src="https://i.ytimg.com/vi/JnWqhQ9OSBU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBoPtxBjDy5hIcua3GtiiUC8CFsIA"
+							alt="Let Her Go thumbnail"
+						/>
+						<div class="videoInfo">
+							<div class="channelIcon">
+								<img
+									src="https://yt3.ggpht.com/RgD52Dam-PJWuaFkxHOXp6kTSaAzONzVRw0TjXLkvSJDZ-_MVwvQhx4-SPxfzBY0W7_g5QZD=s88-c-k-c0x00ffffff-no-rj"
+									alt="Channel Icon"
+								/>
+							</div>
+							<div class="videoDetails">
+								<h4>
+									Good Energy🌻Songs that makes you feel better mood - Tiktok
+									Trending Songs 2023
+								</h4>
+								<p>Happy Beats</p>
+								<p>13 069 264 перегляди 21 вер. 2023 р.</p>
+							</div>
+							<div class="moreOptions">
+								<span>⋮</span>
+							</div>
+						</div>
+					</a>
+
+					<a
+						href="https://www.youtube.com/watch?v=Y1xRFwLBpWw&ab_channel=GoodVibes"
+						class="videoCard"
+					>
+						<img
+							class="thumbnail"
+							src="https://i.ytimg.com/vi/Y1xRFwLBpWw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJ5rVz3PttSa9gR6D4wo7_QHc1Iw"
+							alt="Let Her Go thumbnail"
+						/>
+						<div class="videoInfo">
+							<div class="channelIcon">
+								<img
+									src="https://yt3.ggpht.com/sVPZx79QAjWGVPOrKA6s2tZIz_Rbcs6Ax-FZgZyjfBaXTA1PyRiZAaA9eaihsXK4iUMQ3P99rA=s68-c-k-c0x00ffffff-no-rj"
+									alt="Channel Icon"
+								/>
+							</div>
+							<div class="videoDetails">
+								<h4>
+									Good mood😎Positive songs to start your day - Tiktok Trending
+									Songs 2023 #2
+								</h4>
+								<p>Good Vibes</p>
+								<p>1,6 млн переглядів 11 місяців тому</p>
+							</div>
+							<div class="moreOptions">
+								<span>⋮</span>
+							</div>
+						</div>
+					</a>
+
+					<a
+						href="https://www.youtube.com/watch?v=ysNDDrG9PtI&t=8s&ab_channel=DreamyVibez"
+						class="videoCard"
+					>
+						<img
+							class="thumbnail"
+							src="https://i.ytimg.com/vi/ysNDDrG9PtI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAWGwYvS9ybTsEKxCpYSRwEtn0kw"
+							alt="Let Her Go thumbnail"
+						/>
+						<div class="videoInfo">
+							<div class="channelIcon">
+								<img
+									src="https://yt3.ggpht.com/CtGV_B8MeX828s5O92l3fI1WSSfPMji3XAuhOC0mYORktfpu9R8uxYF7OlRZeu5d6YS5vIpM6A=s68-c-k-c0x00ffffff-no-rj"
+									alt="Channel Icon"
+								/>
+							</div>
+							<div class="videoDetails">
+								<h4>
+									Positive Vibes Music 🍀 English Songs Love Playlist | Tiktok
+									Songs 2023 With Lyrics
+								</h4>
+								<p>Dreamy Vibez <span class="verified">✔</span></p>
+								<p>9,9 млн переглядів 1 рік тому</p>
+							</div>
+							<div class="moreOptions">
+								<span>⋮</span>
+							</div>
+						</div>
+					</a>
+
+					<a
+						href="https://www.youtube.com/watch?v=YARwncqWaG8&ab_channel=LateNight"
+						class="videoCard"
+					>
+						<img
+							class="thumbnail"
+							src="https://i.ytimg.com/vi/YARwncqWaG8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnWVpVVQ6HjwOYFKzzdb0zjYB5Tw"
+							alt="Let Her Go thumbnail"
+						/>
+						<div class="videoInfo">
+							<div class="channelIcon">
+								<img
+									src="https://yt3.ggpht.com/rGxw1lmx4dW-hBPNnwYjkxrXbMsbNiqUqgC1rjsLJx8GdwCd5dYHim9MJT8OE0c716xn0wVxUuc=s88-c-k-c0x00ffffff-no-rj"
+									alt="Channel Icon"
+								/>
+							</div>
+							<div class="videoDetails">
+								<h4>
+									Love Is Gone... - Slowed sad songs playlist 2023 - Sad songs
+									that make you cry#latenight
+								</h4>
+								<p>Late Night</p>
+								<p>1,8 млн переглядів 11 місяців тому</p>
+							</div>
+							<div class="moreOptions">
+								<span>⋮</span>
+							</div>
+						</div>
+					</a>
+
+					<a
+						href="https://www.youtube.com/watch?v=GOZrjIpRtkI&ab_channel=MaxRoslow"
+						class="videoCard"
+					>
+						<img
+							class="thumbnail"
+							src="https://i.ytimg.com/vi/GOZrjIpRtkI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB42MSRgGoGObGqbOOAUQCerigcCw"
+							alt="Let Her Go thumbnail"
+						/>
+						<div class="videoInfo">
+							<div class="channelIcon">
+								<img
+									src="https://yt3.ggpht.com/VZAkhi8tYi0ZH6julE6_inYFES3qe0JsyX3a1SUZ61ocbsP1V0LfE9GB9nM-5zSO-LO0fHtvvQ=s88-c-k-c0x00ffffff-no-rj"
+									alt="Channel Icon"
+								/>
+							</div>
+							<div class="videoDetails">
+								<h4>
+									Делаем и Деплоим Фуллстак Приложение на React, TypeScript,
+									Redux Toolkit, Express | 11+ часов
+								</h4>
+								<p>Max Roslow</p>
+								<p>46 тис. переглядів 7 місяців тому</p>
+							</div>
+							<div class="moreOptions">
+								<span>⋮</span>
+							</div>
+						</div>
+					</a>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>
