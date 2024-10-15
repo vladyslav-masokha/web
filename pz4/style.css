@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+#root {
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+
+	background-color: #eee;
+}
+
+.form {
+	background-color: #fff;
+	box-shadow: 0 0 10px #222;
+	border-radius: 20px;
+
+	padding: 15px;
+	margin: 50px 0 0;
+
+	h1 {
+		text-align: center;
+	}
+
+	form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		label {
+			margin: 0 0 5px;
+		}
+
+		input,
+		#Gender {
+			margin: 0 0 15px;
+		}
+
+		input {
+			padding: 5px 15px;
+			border: 1px solid #222;
+			outline: none;
+		}
+
+		sup {
+			color: #f00;
+		}
+
+		select,
+		input[type='date'] {
+			padding: 5px 15px;
+			cursor: pointer;
+		}
+
+		button[type='submit'] {
+			padding: 5px 15px;
+			background-color: lightskyblue;
+			border: 2px solid lightskyblue;
+			transition: all 0.5s ease-in-out;
+
+			&:hover {
+				background: transparent;
+				cursor: pointer;
+			}
+		}
+	}
+}
