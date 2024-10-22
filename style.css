@@ -13,7 +13,8 @@
 
 body,
 h1,
-p {
+p,
+h2 {
 	margin: 0;
 	padding: 0;
 }
@@ -95,6 +96,8 @@ li {
 
 	#practicalClasses,
 	#labClasses {
+		margin: 30px 0;
+
 		.practicalClassesBody,
 		.labClassesBody {
 			display: flex;
