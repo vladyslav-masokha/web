@@ -229,7 +229,7 @@ a {
 			padding: 15px;
 			border-radius: 20px;
 			box-shadow: 0 0 15px #222;
-			transition: transform .5s ease-in-out;
+			transition: transform 0.5s ease-in-out;
 
 			&:hover {
 				cursor: pointer;
@@ -245,6 +245,27 @@ a {
 
 .labs {
 	background-color: #fff;
+}
+
+.footer {
+	background-color: #eee;
+
+	.footerBody {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 15px;
+		align-items: center;
+		padding: 15px 0;
+
+		h3 {
+			font-size: 14px;
+
+			span {
+				color: #437492;
+			}
+		}
+	}
 }
 
 table {
