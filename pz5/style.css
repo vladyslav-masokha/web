@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #111;
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	color: #fff;
+}
+
+#root {
+	display: flex;
+}
+
+.keyboard-wrapper {
+	display: flex;
+	padding: 20px;
+	background-color: #222;
+	border: 2px solid #333;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	gap: 10px;
+}
+
+.keyboard-main,
+.keyboard-numpad {
+	display: grid;
+	gap: 5px;
+}
+
+.keyboard-main {
+	grid-template-columns: repeat(17, 1fr); /* Main keyboard columns */
+}
+
+.keyboard-numpad {
+	grid-template-columns: repeat(3, 1fr); /* Numpad columns */
+}
+
+.key {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 0.8em;
+	text-align: center;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.key:hover {
+	background-color: #444;
+}
+
+.key:active {
+	background-color: #555;
+}
+
+.wide {
+	grid-column: span 2;
+}
+
+.extra-wide {
+	grid-column: span 3;
+}
+
+.mega-wide {
+	grid-column: span 4;
+}
+
+.space-wide {
+	grid-column: span 7;
+}
+
+.num-key {
+	grid-column: span 1;
+}
+
+.empty {
+	opacity: 0;
+	pointer-events: none;
+}
