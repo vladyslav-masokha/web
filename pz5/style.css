@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #111;
+	background-color: #000;
 	font-family: 'Ubuntu', sans-serif;
 	display: flex;
 	justify-content: center;
@@ -21,10 +21,10 @@ body {
 .keyboard-wrapper {
 	display: flex;
 	padding: 20px;
-	background-color: #222;
-	border: 2px solid #333;
+	background-color: #fff;
+	border: 2px solid #eee;
 	border-radius: 10px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 20px #eeeeee;
 	gap: 10px;
 }
 
@@ -35,11 +35,11 @@ body {
 }
 
 .keyboard-main {
-	grid-template-columns: repeat(17, 1fr); /* Main keyboard columns */
+	grid-template-columns: repeat(17, 1fr);
 }
 
 .keyboard-numpad {
-	grid-template-columns: repeat(3, 1fr); /* Numpad columns */
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .key {
