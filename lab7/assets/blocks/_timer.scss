@@ -1,0 +1,11 @@
+.timer {
+	text-align: center;
+	font-size: 1.2rem;
+	margin: 20px 0;
+	color: $primary-color;
+
+	&__time {
+		font-weight: bold;
+		color: $secondary-color;
+	}
+}

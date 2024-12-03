@@ -1,0 +1,44 @@
+.garland {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+
+	&__light {
+		width: 15px;
+		height: 15px;
+		margin: 0 5px;
+		border-radius: 50%;
+		opacity: 0.8;
+		animation: blink 2s infinite;
+
+		&--red {
+			background-color: red;
+		}
+		&--green {
+			background-color: green;
+			animation-delay: 0.5s;
+		}
+		&--blue {
+			background-color: blue;
+			animation-delay: 1s;
+		}
+		&--yellow {
+			background-color: yellow;
+			animation-delay: 1.5s;
+		}
+		&--pink {
+			background-color: pink;
+			animation-delay: 2s;
+		}
+	}
+
+	@keyframes blink {
+		0%,
+		100% {
+			opacity: 0.5;
+		}
+		50% {
+			opacity: 1;
+		}
+	}
+}

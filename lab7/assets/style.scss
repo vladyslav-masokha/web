@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'blocks/_snow';
+@import 'blocks/_header';
+@import 'blocks/_timer';
+@import 'blocks/_garland';
+@import 'blocks/_snowfake';
+@import 'blocks/_main';
+@import 'blocks/_footer';
+
+body {
+	font-family: $font-family;
+	font-size: $font-size-base;
+	background-color: $background-color;
+	color: $text-color;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#root {
+	position: absolute;
+	top: 10%;
+	max-width: 1200px;
+	padding: 50px;
+	box-shadow: 0 0 10px #fff;
+}
+
+.block {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row-reverse;
+	align-items: center;
+}
